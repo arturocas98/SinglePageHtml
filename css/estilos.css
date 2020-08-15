@@ -16,9 +16,12 @@ header {
     padding: 25px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
     header .contenedor_logo_menu .logo a {
-      display: block; }
+      display: block;
+     }
       header .contenedor_logo_menu .logo a img {
-        vertical-align: top; }
+        vertical-align: top; 
+        width: 50%;
+      }
     header .contenedor_logo_menu .menu {
       text-align: right;
       line-height: 50px; }
@@ -243,9 +246,23 @@ footer .direccion {
     margin-bottom: 10px; }
   footer .direccion .logo img {
     margin-top: 70px; }
+
+  /* Mapa */
+  .footer .direccion .mapa {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .main .mapa iframe {
+    width: 100%;
+    max-height: 600px;
+  }
+
 footer .social {
   text-align: center;
-  padding: 20px 0; }
+  padding: 20px 0;
+  background: #4c8dce;
+}
   footer .social a {
     padding: 10px;
     display: inline-block;
@@ -302,5 +319,15 @@ footer .social {
     text-align: center; }
     footer .direccion .logo img {
       margin-top: 20px; } }
+  
+  /* copyright */
+  
+  footer .copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    background: #3c4045;
+  }
+
 
 /*# sourceMappingURL=estilos.css.map */
